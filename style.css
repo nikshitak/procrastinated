@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+
+body {
+  background-color: #7899D4;
+  color: white;
+}
+
+a {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Lexend Mega', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+.color {
+  font-size: 18px;
+  display: flex;
+}
+
+.colorPicker {
+  background-color: white;
+  justify-content: center;
+}
+
+.changeBtn {
+   background-color: white;
+  justify-content: center;
+	font-family: 'Lexend Mega', sans-serif;
+	border-width: 2px; 
+}
+
+.changeBtn:hover {
+  cursor: pointer;
+}
+
+/*.settings {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Lexend Mega', sans-serif;
+    margin: 0;
+    padding-left: 0;
+    border: none;
+    background-color: #7899D4;
+    color: white;
+}
+*/
+
+.newList {
+    color: black;
+    background-color: white;
+    /*text-align: bottom;*/
+    font-family: 'Lexend Mega', sans-serif;
+    margin-left: 40px;
+}
+
+header {
+    display: flex;
+    /*justify-content: space-evenly;*/
+    /*margin-bottom: 30px;*/
+}
+
+.title {
+    padding-top: 10px;
+    font-family: 'Lexend Mega', sans-serif;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin: auto;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+		/* 	it's in a fixed position rn but it looks good when it's full screened */
+    margin: unset;
+    margin-right: 40px;
+    padding-top: 20px;
+}
+
+.settings:hover {
+    cursor: pointer;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.newList:hover {
+	cursor: pointer;
+}
+
+container {
+	height: auto;
+	width: 80px;
+}
+
+.tasks {
+	height: auto;
+	width: 100px;
+	z-index: 1;
+}
+
+
+
+/*timer*/
+.timer {
+  height:300px;
+  display:flex;
+  justify-content: center;
+}
+
+.row {
+  background-color: white;
+  color: black;
+  font-family: 'Lexend Mega', sans-serif;
+  border-radius: 50px;
+  width: 600px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+}
+
+.timerInput {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.startButton {
+    background-color: white;
+    font-family: 'Lexend Mega', sans-serif;
+}
+.startButton:hover {
+  cursor: pointer;
+}
+
+.endMessage {
+  color: white;
+  display:flex;
+  font-family: 'Lexend Mega', sans-serif;
+  justify-content: center;
+}
+
+.endText {
+  border: 5px solid white;
+  border-radius: 5px;
+  visibility: hidden;
+  margin: 100px;
+}
+/*end of timer*/
+
+.delete:hover {
+  cursor: pointer;
+}
+
+.stuff{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+	font-family: 'Lexend Mega', sans-serif;
+}
+
+
+/* NEW TASK LIST / TASKS CSS */
+
+.delete {
+/*     border-radius: 50%; */
+}
+
+.taskList {
+	position: absolute;
+/* 	margin-left: 5%; */
+}
+
+.allTasks {
+    min-height: 100px;
+}
+
+.subButton {
+	font-family: 'Lexend Mega', sans-serif;
+	border-width: 2px; 
+}
+
+.subButton:hover {
+  cursor: pointer;
+}
+
+.delete {
+	font-family: 'Lexend Mega', sans-serif;
+	border-width: 2px; 
+}
+
+img{
+  width: 250px;
+  height:250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -50px;
+}
+
+.b {
+  color: black;
+}
+
+.plan {
+  color: black;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>replit</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<a class="title" href="./index.html">
+			<h1> procrastinated</h1>
+		</a>
+
+		<nav>
+			<!--<button class="settings">settings</button>-->
+			<h3 class="home"><a href="index.html">home</a></h3>
+      <h3 class="tips"><a href="productivity.html">productivity tips</a></h3>
+			<div class="color">
+				<input class="colorPicker" type="color">
+        <button class = "changeBtn"> change </button>
+			</div>
+		</nav>
+	</header>
+
+
+	<!-- new list code -->
+	<!-- <button class="newList">+ new task</button>
+<container></container> -->
+
+	<!-- Jhanvi's code -->
+	<container>
+		<input class="subField" placeholder="Enter your task here">
+		<button class="subButton"> submit </button>
+		<div class="taskList"></div>
+	</container>
+
+	<!-- timer code -->
+	<div class="timer">
+
+		<!-- Main Timer -->
+		<div class="row">
+			<div class="col-5">
+				<h4 id="minutes">00</h4>
+			</div>
+			<div class="col-2">
+				<h4>:</h4>
+			</div>
+			<div class="col-5">
+				<h4 id="seconds">00</h4>
+			</div>
+		</div>
+	</div>
+	<div class="timerInput">
+		<input class="amtTime" placeholder="Enter minutes">
+		<button class="startButton"> start </button>
+	</div>
+
+	<div class="endMessage">
+		<h1 class="endText"> <a href="https://www.youtube.com/watch?v=24YlgDBFXE4"> Alarm Sound Link </a> </h1>
+	</div>
+	<img src="https://media.istockphoto.com/vectors/hot-tea-cartoon-vector-id873585772" alt="tea">
+<!-- 
+	<script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> -->
+	<script src="script.js"></script>
+</body>
+
+</html>
