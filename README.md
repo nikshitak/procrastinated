@@ -9,8 +9,11 @@ Created a timer as well as a todo section with HTML, CSS, and Javascript.
 Authors
 -------
 Nikshita Kurva (@nikshitak)
+
 Jhanvi Mittal
+
 Raina Qiu
+
 Anshu Siripapu
 
 Version History
